@@ -15,7 +15,6 @@ def main():
     with open('referat.txt', 'r', encoding ='utf-8') as text:
         #for line in text
             string_file = text.read()
-            print(string_file)
             print('длина строки - ',len(string_file))
             print('Кол-во слов в строке -', len(string_file.split()), '\n') 
             string_file = string_file.replace('.','!')
@@ -25,6 +24,5 @@ def main():
 if __name__ == "__main__":
     main()
 
-""" with open('referat2.txt', 'w', encoding="utf-8") as result:
-    result.write() """
+
     
